@@ -1,6 +1,6 @@
 # code-at-home
 
-Exercises to code at home or at work before interview.
+Two exercises to code at home or at work before interview.
 
 You will find the instructions in the README files in each folder inside [src/main/java/com/expedia/interview](https://github.com/FabienLauf/code-at-home/tree/master/src/main/java/com/expedia/interview)
 
@@ -8,8 +8,9 @@ All Exercise classes have a main function so you can run test cases to test your
 
 ## Contribution steps:
 
- 1. Clone this repository and add your code to the corresponding Java files in the `src` folder.
- 2. When done, create a PR from a branch with your name.
+ 1. **Fork** this repository
+ 2. Add your code to the corresponding Java files in the `src` folder.
+ 3. When done, send us the URL of your Fork.
  
 ## Requirements:
 
