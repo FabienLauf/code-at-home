@@ -2,7 +2,9 @@
 
 Exercises to code at home or at work before interview.
 
-You will find the instructions in the README files in each folder inside [src/main/java/com/expedia/interview]
+You will find the instructions in the README files in each folder inside [src/main/java/com/expedia/interview](https://github.com/FabienLauf/code-at-home/tree/master/src/main/java/com/expedia/interview)
+
+All Exercise classes have a main function so you can run test cases to test your code.
 
 ## Contribution steps:
 
