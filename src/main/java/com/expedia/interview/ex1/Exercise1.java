@@ -10,7 +10,6 @@ import java.util.regex.*;
 
 public class Exercise1 {
 
-
     static String timeInWords(int h, int m) {
         return "";
     }
@@ -27,17 +26,20 @@ public class Exercise1 {
      */
 
     public static void main(String[] args) throws IOException {
-        testCase(1, 5, 0, "five o'clock");
-        testCase(2, 5, 1, "one minute past five");
-        testCase(3, 5, 10, "ten minutes past five");
-        testCase(4, 5, 15, "quarter past five");
+        testCase(1, 1, 0, "one o'clock");
+        testCase(2, 2, 1, "one minute past two");
+        testCase(3, 3, 10, "ten minutes past three");
+        testCase(4, 4, 15, "quarter past four");
         testCase(5, 5, 30, "half past five");
-        testCase(6, 5, 40, "twenty minutes to six");
-        testCase(7, 5, 45, "quarter to six");
-        testCase(8, 5, 47, "thirteen minutes to six");
-        testCase(9, 5, 28, "twenty eight minutes past five");
-        testCase(10, 7, 59, "one minute to eight");
-        testCase(11, 7, 29, "twenty nine minutes past seven");
+        testCase(6, 6, 40, "twenty minutes to seven");
+        testCase(7, 7, 45, "quarter to eight");
+        testCase(8, 8, 47, "thirteen minutes to nine");
+        testCase(9, 9, 28, "twenty eight minutes past nine");
+        testCase(10, 10, 59, "one minute to eleven");
+        testCase(11, 11, 29, "twenty nine minutes past eleven");
+        testCase(12, 12, 37, "twenty three minutes to one");
+        testCase(13, 12, 45, "quarter to one");
+        testCase(14, 12, 15, "quarter past twelve");
     }
 
 
