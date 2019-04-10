@@ -9,9 +9,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class Exercise1 {
-    
-    private static final String[] byOne = new String[] {"","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","ninteen","twenty"};
-    private static final String[] byQuarter = new String[] {"%s o'clock", "quarter past %s", "half past %s", "quarter to %s"};
 
 
     static String timeInWords(int h, int m) {
